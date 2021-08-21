@@ -70,3 +70,18 @@ body {
   bottom: 0;
   z-index: 1;
 }
+
+.modal {
+  .modal-content {
+    background-color: $background-dark;
+    .modal-header {
+      color: floralwhite;
+      button {
+        color: floralwhite;
+      }
+    }
+    .modal-body {
+      background-color: $background-pale;
+    }
+  }
+}
